@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: helvetica, arial, sans-serif;
+}
+#pageTitle{
+    font-size: 30px;
+    padding: 0px 0px 10px 0px;
+}
+#pageSubtitle{
+    font-size: 20;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+#description{
+    font-size: 15px;
+    padding: 0px 0px 10px 0px;
+}
+
+#map {
+    position: absolute;
+    right: 0px;
+    left: 340px;
+    height: 100%;
+    top: 0;
+}
+
+#sidebar {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 10px 0px 10px gray;
+}
+#pageNum{
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;   
+}
+
+#searchStop{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    width: 300px;
+    padding: 20px; 
+}
+
+#button{
+    position: absolute;
+    left: 0px;
+    bottom: 45px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;   
+}
+.button {
+    background-color: #686868;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.5s;
+    opacity: 0.8;
+  }
+
+.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.hover:hover {
+    opacity: 1
+}
+
+  
+
+#filter-status {
+    word-wrap: break-word;
+}
+

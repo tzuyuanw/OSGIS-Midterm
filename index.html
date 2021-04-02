@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!--Left Panel-->
+    <div id="sidebar">
+      <div id = "pageTitle">SEPTA Service Changes During COVID-19 Pandenmic</div>
+      <div id="pageSubtitle">Service Before Pandemic</div>
+      <div id = "description">SEPTA has a dense network within Philadelphia. On streets where buses operate, almost every intersection has a stop.</div>
+
+<!--
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+-->
+    </div>
+    <!--Box for Search Stop-->
+    <div id="searchStop">
+      <div class="inputgroup">
+        <label for="str">Search Stop</label>
+        <input id="str" type="text">
+      </div>
+    </div>
+
+    <!--Box for Page Number-->
+    <div id="pageNum">
+      Page  
+      <div id="number">1</div>
+    </div>
+    <!--Box for Button-->
+    <div id="button">
+      <button id = "previous" class="button">Previous</button>
+      <button id = "next" class="button"> Next</button>
+    </div>
+
+    <!-- Javascript Imports -->
+    <!--<script src="SEPTA_servicePhilly.js"></script>-->
+    <script src="SEPTA_service.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery-2.2.0.js"></script>
+
+    <script src="js/midterm.js"></script>
+  </body>
+</html>
